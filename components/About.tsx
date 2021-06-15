@@ -11,7 +11,7 @@ export const About = () => {
         <Transition
           as={Fragment}
           show={isShowing}
-          enter="transition ease-out duration-100"
+          enter="transition ease-out duration-1000"
           enterFrom="transform opacity-0 scale-95"
           enterTo="transform opacity-100 scale-100"
           leave="transition ease-in duration-75"

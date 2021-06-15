@@ -3,6 +3,8 @@ import Head from 'next/head'
 import { Container } from '../components/Container'
 import { TextHeader } from '../components/TextHeader'
 import { About } from '../components/About'
+import { Projects } from '../components/Projects'
+import { Portfolio } from '../components/Portfolio'
 
 const index = () => {
   return (
@@ -13,6 +15,8 @@ const index = () => {
       <Container>
         <TextHeader />
         <About />
+        <Projects />
+        <Portfolio />
       </Container>
     </div>
   )

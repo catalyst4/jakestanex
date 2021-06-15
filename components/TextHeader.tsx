@@ -7,7 +7,7 @@ export const TextHeader = () => {
     const age = Math.floor((today-dob) / (1000 * 60 * 60 * 24 * 365))
 
     return (
-        <div className="mt-10">
+        <div className="my-10">
             <h1 className="text-5xl font-black">jake stanex</h1>
             <span className="text-sm font-mono">{age} / 👨‍💻 web dev / ☘️ northern ireland</span>
         </div>

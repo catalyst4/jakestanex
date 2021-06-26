@@ -16,6 +16,7 @@ const index = () => {
         <TextHeader />
         <div className="mb-5">
           <h1 className="font-arcade font-bold text-5xl leading-9"><span className="text-green-500">^</span>level up<span className="text-green-500">^</span> your business, <span className="italic">enter</span> the <span>future</span>.</h1>
+          <p className="my-3 font-mono leading-5">I design and build lightning fast, future-proof websites.</p>
         </div>
         <About />
         <Projects />

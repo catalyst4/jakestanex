@@ -14,6 +14,9 @@ const index = () => {
       </Head>
       <Container>
         <TextHeader />
+        <div className="mb-5">
+          <h1 className="font-arcade font-bold text-5xl leading-9"><span className="text-green-500">^</span>level up<span className="text-green-500">^</span> your business, <span className="italic">enter</span> the <span>future</span>.</h1>
+        </div>
         <About />
         <Projects />
         <Portfolio />

@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Inter'],
         'mono': ['Roboto Mono'],
+        'arcade': ['VT323']
       },
       transitionDuration: {
         '2000': '2000ms',
